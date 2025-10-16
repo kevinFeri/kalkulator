@@ -10,6 +10,7 @@ int izbiraFun()
     cout << "3. /" << endl;
     cout << "4. *" << endl;
     cout<<"5. ^"<<endl;
+    cout<<"6. log"<<endl;
     int izbor;
     cin >> izbor;
     return izbor;
@@ -45,9 +46,13 @@ int main()
          cout<< a<<"^"<<"b"<<" = "<< pow(a,b)<<endl;
          break;
     }
+    case 6:{
+        cout<<"log("<<a<<") = "<<log(a)<<endl;
+        break;
+    }
     default:
     {
-        cout<<"WRONG INPUT!!!!";
+        cout<<"Prosim vpisite stevilko";
     }
 
     }
