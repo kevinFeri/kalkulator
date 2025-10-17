@@ -11,6 +11,7 @@ int izbiraFun()
     cout << "4. *" << endl;
     cout<<"5. ^"<<endl;
     cout<<"6. log"<<endl;
+    cout<<"7. sqrt"<<endl;
     int izbor;
     cin >> izbor;
     return izbor;
@@ -48,6 +49,10 @@ int main()
     }
     case 6:{
         cout<<"log("<<a<<") = "<<log(a)<<endl;
+        break;
+    }case 7:
+    {
+        cout<<"sqrt(a) = "<<sqrt(a)<<endl;
         break;
     }
     default:
